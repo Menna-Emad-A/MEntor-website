@@ -1,0 +1,101 @@
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #dd9bc1;
+}
+
+/* Page content styles */
+.page-content {
+    padding: 20px;
+    background-color: #f2f2f2; /* Added background color */
+}
+
+.intro,
+.search,
+.call-to-action,
+.testimonials {
+    margin-top: 40px;
+}
+
+.mentor-profiles {
+    margin-top: 40px; /* Adjusted margin */
+}
+
+.mentor-profile {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.mentor-profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.mentor-profile h3 {
+    margin-top: 0;
+}
+
+.mentor-profile span {
+    font-style: italic;
+    color: #666;
+}
+
+.mentor-profile p {
+    margin-top: 10px;
+}
+
+.mentor-profile a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.mentor-profile a:hover {
+    background-color: #555;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #dd9bc1;
+}
